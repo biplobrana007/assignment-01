@@ -3,6 +3,7 @@
     padding: 0;
 }
 
+
 /* ---------------------------------------------FONTS */
 
 .interFont {
@@ -17,10 +18,11 @@
     font-style: normal;
   }
 
+
 /* .........................SHARED CLASSES */
 
 .container{
-    max-width: 1440px;
+    max-width: 1140px;
     margin: auto;
 }
 
@@ -31,9 +33,16 @@
     color: white;
     font-size: 16px ;
     font-weight: bold;
+    cursor: pointer;
+    padding: 12px 36px;
+    line-height: 150%;
 }
 
 
+.bg{
+    background: #f5f7ff;
+    
+}
 
 /* ..........................HEADER SECTION START */
 header{
@@ -53,11 +62,10 @@ nav{
 .logo{
     font-size: 34px;
     color: #4e47ff;
+    font-weight: 900;
 }
 
-.signUp{
-    padding: 12px 36px;
-}
+
 
 .banner{
     text-align: center;
@@ -67,13 +75,42 @@ nav{
 .banner h2{
     font-size: 65px;
     font-weight: bold;
-    color: #252432;
 
 
 }
 
 .banner button{
-    padding: 12px 36px;
     margin-top: 37px;
 }
 /* ..............................................HEADER SECTION END */
+
+
+/* ..................................ACTION SECTION START */
+
+.action{
+    display: flex;
+    align-items: center;
+    justify-content: space-between;
+    padding: 116px 0;
+    gap: 205px;
+
+
+}
+
+.actionLeft h3{
+    font-size: 42px;
+}
+
+.actionLeft p{
+    font-size: 24px;
+    line-height: 30px;
+    margin: 23px 0;
+    color: #8d8e98
+}
+
+.actionRight img{
+    border-radius: 48px;
+}
+
+
+/* ..................................ACTION SECTION END */
