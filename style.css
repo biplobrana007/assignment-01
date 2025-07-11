@@ -166,3 +166,75 @@ nav{
 
 
 /*...........................PRODUCTIVE USERS ENDS*/
+
+
+/* .............................................FEEDBACK SECTION START */
+
+.feedback{
+    padding: 116px 0;
+}
+
+
+.feedbackTitle{
+    text-align: center;
+    font-size: 42px;
+    font-weight: bold;
+    color: #252432;
+    margin-bottom: 50px;
+}
+
+.feedbackReviews{
+    display: flex;
+    gap: 20px;
+    flex-wrap: wrap;
+}
+
+.starRating{
+    width: 20px;
+}
+
+.feedbackReview{
+    width: 316px;
+    height: 200px;
+    background: #FAFCFF;
+    border-radius: 14px;
+    padding: 24px;
+    border: 1px solid #F2EDED;
+
+
+}
+
+.reviewTitle{
+    font-size: 24px;
+    color: #252432;
+    margin-top: 24px;
+    margin-bottom: 10px;
+}
+
+.reviewComnt{
+    font-size: 17px;
+    color: #252432;
+}
+
+.reviewerInfo{
+    display: flex;
+    align-items: center;
+    margin-top: 24px;
+}
+
+.reviewerImg{
+    border-radius: 50%;
+    margin-right: 8px;
+}
+
+.reviewerName{
+    color: #757575;
+}
+
+.reviewDate{
+    font-weight: 450;
+    font-size: 15px;
+    color: #72737fbd;
+}
+
+/* .............................................FEEDBACK SECTION END */
