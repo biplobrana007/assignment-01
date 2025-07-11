@@ -63,6 +63,11 @@ nav{
     font-size: 34px;
     color: #4E47FF;
     font-weight: 900;
+    text-decoration: none;
+}
+
+.logo span{
+    color: #ee5e0b ;
 }
 
 
@@ -338,14 +343,18 @@ nav{
     font-size: 100px;
     color: #4E47FF;
     font-weight: 900;
-    margin-bottom: 20px;
+    text-decoration: none;
+}
+
+.footerLogo span{
+    color: #ee5e0b;
 }
 
 .footerPara{
     font-size: 20px;
     color: #72737F;
     width: 666px;
-    margin: auto;
+    margin: 20px auto 0 auto;
 }
 
 
@@ -363,3 +372,19 @@ nav{
     font-size: 20px;
 }
 /* ........................................FOOTER SECTION END */
+
+
+/* .................................. HOVER EFFECT */
+
+.footerNav a:hover{
+    color:#4e47ff ;
+    font-weight: 700;
+
+}
+
+.btn:hover{
+    background: #ee5e0b;
+    color: #252432;
+}
+
+
