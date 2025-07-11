@@ -238,3 +238,36 @@ nav{
 }
 
 /* .............................................FEEDBACK SECTION END */
+
+/* READY SECTION START */
+
+.ready{
+    text-align: center;
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    padding: 70px 150px;
+    border-radius: 14px;
+    background: white;
+}
+
+.readyTitle{
+    font-size: 50px;
+    font-weight: bold;
+    color: #252432;
+}
+
+.readyPara{
+    margin: 20px 0;
+    font-size: 14px;
+    color: #72737F;
+}
+
+.readyImg{
+    width: 840px;
+    height: 364px;
+    border-radius: 48px;
+    margin-top: 20px;
+}
+
+/* READY SECTION END */
