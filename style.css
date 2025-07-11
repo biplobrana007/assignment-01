@@ -271,3 +271,51 @@ nav{
 }
 
 /* READY SECTION END */
+.getInTouchContainer{
+    padding: 85px 0 20px 0;
+}
+
+.getInTouch{
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    padding: 71px 0;
+}
+
+.getInTouchLeft{
+    width: 528px;
+}
+
+.getInTouchTitle{
+    font-size: 97px;
+
+}
+
+.getInTouchRight{
+    display: flex;
+    flex-direction: column;
+    width: 490px;
+    height: 490px;
+}
+
+.getInTouchRight input , .getInTouchRight textarea {
+    padding: 20px 32px;
+    border: none;
+    border-radius: 10px;
+}
+
+.getInTouchRight label{
+    margin: 19px 0;
+    font-size: 20px;
+    line-height: 120%;
+    font-weight: 450;
+}
+
+.getInTouchRight button{
+    margin-top: 19px;
+}
+
+.getInTouchRight [placeholder]{
+    color:#252432;
+    font-size: 20px;
+}
