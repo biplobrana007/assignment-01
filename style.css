@@ -239,7 +239,7 @@ nav{
 
 /* .............................................FEEDBACK SECTION END */
 
-/* READY SECTION START */
+/* ...............................READY SECTION START */
 
 .ready{
     text-align: center;
@@ -270,7 +270,10 @@ nav{
     margin-top: 20px;
 }
 
-/* READY SECTION END */
+/* .....................................READY SECTION END */
+
+/* .................................GET IN TOUCH SECTION START */
+
 .getInTouchContainer{
     padding: 85px 0 20px 0;
 }
@@ -288,6 +291,7 @@ nav{
 
 .getInTouchTitle{
     font-size: 97px;
+    color: #252432;
 
 }
 
@@ -319,3 +323,43 @@ nav{
     color:#252432;
     font-size: 20px;
 }
+
+/* .........................................GET IN TOUCH SECTION END */
+
+/* ........................................FOOTER SECTION START */
+
+.footer{
+    text-align: center;
+    margin: 105px 0;
+
+}
+
+.footerLogo{
+    font-size: 100px;
+    color: #4E47FF;
+    font-weight: 900;
+    margin-bottom: 20px;
+}
+
+.footerPara{
+    font-size: 20px;
+    color: #72737F;
+    width: 666px;
+    margin: auto;
+}
+
+
+
+.footerNav{
+    width: 410px;
+    margin: auto;
+    padding: 20px 0;
+
+}
+
+.footerNav a{
+    text-decoration: none;
+    color:#72737F ;
+    font-size: 20px;
+}
+/* ........................................FOOTER SECTION END */
